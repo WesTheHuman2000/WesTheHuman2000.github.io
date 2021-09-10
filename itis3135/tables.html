@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="styles/default.css" rel="stylesheet" type="text/css" >
+	<title>Tables</title>
+    <style>
+        table {
+    background-color: #a16363;
+	border: solid 2px #9b6868;
+    margin-left: auto;
+    margin-right:auto;
+}
+#myHeader {
+    background-color: #a16363;
+    border: solid 2px #9b6868;
+    color:whitesmoke;
+  
+}
+table tr:nth-child(even):not(myHeader) {
+background-color: #777;
+color: #fff; }
+ol {
+  display: table;
+  margin: 0 auto;
+}
+    </style>
+</head>
+
+<body>
+	<header>
+			<h1><em>Jing-tao Lin</em> >> ITIS3135</h1>
+	</header>
+	<nav>
+		<a href="introduction.html">Introduction</a> 
+        ||
+		<a href="contract.html">Contract</a>
+	</nav>	
+	
+	<main>
+		<h2>Activity #2  - HTML Tables</h2>
+		<h3>My tabular data</h3>
+        <ol>
+            <li>Arthur Pendragon KingA@camelot.com 8</li>
+            <li>Dorothea Arnault DArnault18@gmail.com 2</li>
+            <li>Romuska Palo Ul Laputa RPUL@laputa.com 6</li>
+            <li>Edelgard von Hresvelg EVH@adrestia.com 2</li>
+            <li>Link Hyrule LZ420@hyrule.com 4</li>
+            <li>Makoto Niijima MNiijima@yshujin.edu 1</li>
+            <li>Lancelot du Lac Ldl@camelot.com 7</li>
+            <li>Shiki Ryougi ryougi@yahoo.com 5</li>
+            <li>Mikiya Kokutou kokutou@yahoo.com 5</li>
+            <li>Zelda Hyrule ZL777@hyrule.com 4</li>
+            
+        </ol>
+        <h3>Employee data in a simple table</h3>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Name</td>
+                    <td>Email</td>
+                    <td>Years of work</td>
+                </tr>
+                <tr>
+                    <td>Arthur Pendragon</td>
+                    <td>King@camelot.com</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Dorothea Arnault</td>
+                    <td>DArnault18@gmail.com</td>
+                    <td>2</td>
+
+                </tr>
+                <tr>
+                    <td>Romuska Palo ul Laputa</td>
+                    <td>RPUL@laputa.com</td>
+                    <td>6</td>
+
+                </tr>
+                <tr>
+                    <td>Edelgard von Hresvelg</td>
+                    <td>EVH@adrestia.com</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Link Hyrule</td>
+                    <td>LZ420@hyrule.com</td>
+                    <td>4</td>
+                </tr>
+                
+                <tr>
+                    <td>Makoto Niijima</td>
+                    <td>MNiijima@shujin.edu</td>
+                    <td>1</td>
+
+                </tr>
+                <tr>
+                    <td>Mikiya Kokutou</td>
+                    <td>kokutou@yahoo.com</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Shiki Ryougi</td>
+                    <td>ryougi@yahoo.com</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Lancelot du Lac</td>
+                    <td>Ldl@camelot.com</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Zelda Hyrule</td>
+                    <td>ZL777@hyrule.com</td>
+                    <td>4</td>
+                </tr>
+                
+            </tbody>
+        </table>
+		
+        <h3>Employee Data in Complex Table</h3>
+
+        <figure>
+        <table>
+            <tbody>
+                <tr id="myHeader">
+                    <th rowspan="5">Management</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    
+
+                </tr>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Years of work  </th>
+                    <th>Monthly Salary</th>                   
+                </tr>
+                
+                <tr>
+                    <td>Arthur Pendragon</td>
+                    <td>King@camelot.com</td>
+                    <td>8</td>
+                    <td>$100,000</td>
+                    
+                </tr>
+                <tr>
+                    <td>Edelgard von Hresvelg</td>
+                    <td>EVH@adrestia.com</td>
+                    <td>2</td>
+                    <td>$100,000</td>
+
+                </tr>
+                <tr>
+                    <td>Romuska Palo ul Laputa</td>
+                    <td>RPUL@laputa.com</td>
+                    <td>6</td>
+                    <td>$100,000</td>
+
+                </tr>
+                
+                
+                <tr id= "myHeader">
+                    <th rowspan="4">Sales</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    
+                    <td>Dorothea Arnault</td>
+                    <td>DArnault18@gmail.com</td>
+                    <td>2</td>
+                    <td>$66,000</td>
+                </tr>
+
+                
+
+
+                <tr>
+                    <td>Link Hyrule</td>
+                    <td>LZ420@hyrule.com</td>
+                    <td>4</td>
+                    <td>$66,000</td>
+                </tr>
+                
+                <tr>
+                    <td>Makoto Niijima</td>
+                    <td>MNiijima@shujin.edu</td>
+                    <td>1</td>
+                    <td>$66,000</td>
+
+                </tr>
+
+
+                <tr id="myHeader">
+                    <th rowspan="5">Marketing</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                    
+                
+
+                <tr>
+                    <td>Mikiya Kokutou</td>
+                    <td>kokutou@yahoo.com</td>
+                    <td>5</td>
+                    <td>$66,000</td>
+                </tr>
+                <tr>
+                    <td>Shiki Ryougi</td>
+                    <td>ryougi@yahoo.com</td>
+                    <td>5</td>
+                    <td>$66,000</td>
+                </tr>
+                <tr>
+                    <td>Lancelot du Lac</td>
+                    <td>Ldl@camelot.com</td>
+                    <td>8</td>
+                    <td>$66,000</td>
+                </tr>
+                <tr>
+                    <td>Zelda Hyrule</td>
+                    <td>ZL777@hyrule.com</td>
+                    <td>4</td>
+                    <td>$66,000</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Total years of service</th>
+                    <th>47</th>
+                    <th>$762,000</th>
+                </tr>
+
+                
+            </tbody>
+        </table>
+        <figcaption>Our Faithful Employees</figcaption>
+    </figure>
+
+
+    </main>
+
+    <footer>
+        <nav>
+            <a href= "http://webpages.uncc.edu/westhehuman2000/" target="_blank">Charlotte.edu</a> &#9553;
+            <a href="https://github.com/westhehuman2000" target="_blank">Github</a> &#9553;
+            <a href="https://westhehuman2000.github.io/" target="_blank">Github.io</a> &#9553;
+            <a href="https://westhehuman2000.github.io/itis3135/" target="_blank">ITIS 3135 Github Pages</a> &#9553;
+            <a href="https://www.codecademy.com/divonbriesen" target="_blank">Codecademy</a> &#9553;
+            <a href="https://www.freecodecamp.org/jing-taolin" target="_blank">freeCodeCamp</a> &#9553;
+            <a href="https://jsfiddle.net/user/divonbriesen" target="_blank">JSFiddle</a> &#9553;
+            <a href="https://www.linkedin.com/in/divonbriesen/" target="_blank">LinkedIn</a> &#9553;
+        </nav>
+        <br />
+        <p>Page built by Jing-tao</p>
+        <a href="https://validator.w3.org/check?uri=referer">
+			<img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator"></a>
+
+		<a href="https://jigsaw.w3.org/css-validator/check/referer">
+			<img src="images/button-valid-css.gif" width="88" height="31" alt="Link to CSS validator"></a>
+            
+
+    </footer>
+</body>
+</html>

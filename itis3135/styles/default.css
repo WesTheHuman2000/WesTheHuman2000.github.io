@@ -15,13 +15,13 @@ body
 header, footer
 {
 	text-align: center;
-	color: red;
+	color: whitesmoke;
 	font-weight: bold;
 }
 
 h1, h2, h3
 {
-	color: red;
+	color: whitesmoke;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	text-align: center;
 }

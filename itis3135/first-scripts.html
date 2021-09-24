@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <script src="scripts/myScript.js"></script>
+	<link href="styles/default.css" rel="stylesheet" type="text/css" >
+	<title>First Script</title>
+</head>
+
+<body>
+	<header>
+			<h1><em>Jing-tao Lin</em> >> ITIS3135</h1>
+            <h1><img src="images/lion2.png" width="410" height="135"  alt="Our company lion">
+	</header>
+	<nav>
+		<a href="introduction.html">Introduction</a> 
+        ||
+		<a href="tables.html">Tables</a>
+        ||
+        <a href="submission.html">HTML Forms</a>
+        ||
+        <a href="website_evaluations.html">Website Evaluations</a>
+        ||
+        <a href="brand-jovial-lion.html">Brand Page</a>
+	</nav>	
+	
+	<main>
+        
+    	<h2>My First Script</h2> 
+        <body onload="getDateAndTime()"></body>
+        <p id = "dayAndTime"></p>
+	    <button onclick=askName()>Click Here to enter name</button>
+        <p id="demo"></p>  
+
+        <!--Start of 5 tasks below-->
+        <br>
+        <button onclick=countBananas() style="height:50px; width:100px">Get your banana forecast</button>
+        <p id="bananaCount"></p>
+
+        <p>Every banana costs 75 cents each</p>
+        <button onclick=getTotal() style="height:50px; width:100px">Get your total banana cost here</button>
+        <p id="total"></p>
+
+        <button onclick=getTax() style="height:50px; width:100px">Get your tax total here</button>
+        <p id="tax"></p>
+
+        <p>The initial shipping fee is $1.50 with an additional $1.50 per banana being shipped</p>
+        <button onclick=bananaShippingFee() style="height:50px; width:100px">Get your banana shipping fee</button>
+        <p id="shippingFee"></p>
+        
+        <button onclick=getTotalWithShipping() style="height:50px; width:100px">Get your total for everything</button>
+        <p id="everythingTotal"></p>
+
+
+        
+        
+    </main>
+
+    <footer>
+        <nav>
+            <a href= "http://webpages.uncc.edu/westhehuman2000/" target="_blank">Charlotte.edu</a> &#9553;
+            <a href="https://github.com/westhehuman2000" target="_blank">Github</a> &#9553;
+            <a href="https://westhehuman2000.github.io/" target="_blank">Github.io</a> &#9553;
+            <a href="https://westhehuman2000.github.io/itis3135/" target="_blank">ITIS 3135 Github Pages</a> &#9553;
+            <a href="https://www.freecodecamp.org/jing-taolin" target="_blank">freeCodeCamp</a> &#9553;
+            <a href="https://www.linkedin.com/in/jing-taolin/" target="_blank">LinkedIn</a> &#9553;
+        </nav>
+        <br />
+        <p>Page built by Jing-tao</p>
+	
+		<a href="https://validator.w3.org/check?uri=referer">
+			<img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator"></a>
+
+		<a href="https://jigsaw.w3.org/css-validator/check/referer">
+			<img src="images/button-valid-css.gif" width="88" height="31" alt="Link to CSS validator"></a>
+    </footer>
+</body>
+</html>
+
+
+                    
+
+
+            
+           

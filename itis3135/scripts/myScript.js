@@ -2,13 +2,16 @@
 function getDateAndTime(){
     var today = new Date();
     
+    
 
     
 
     document.getElementById("dayAndTime").innerHTML = 
     "Today is " + today.toDateString()+ ", and the time is "+today.getHours()+ ":"+today.getMinutes();
 
+
 }
+
 
 function askName() {
     var personName = prompt("Please enter your name", "Billy Bob");

@@ -72,3 +72,7 @@ button{
   grid-gap: 0px;
   grid-template-columns: repeat(3,1fr);
 }
+
+.key_operator{
+	color: #eee;
+}

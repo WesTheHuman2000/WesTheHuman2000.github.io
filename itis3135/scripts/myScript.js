@@ -61,6 +61,7 @@ function getTotalWithShipping(){
     document.getElementById("everythingTotal").innerHTML = "Your total for everything together is $"+everything;
 }
 
-
+const calculator = document.querySelector('calculator')
+const keys = calculator.querySelector('.calculator_keys')
 
 

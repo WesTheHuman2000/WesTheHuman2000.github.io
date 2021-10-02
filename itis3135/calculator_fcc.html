@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link href="styles/default.css" rel="stylesheet" type="text/css" >
+    <script src="scripts/calculator.js" defer></script>
 	<title>Jing-tao Lin</title>
 </head>
 
@@ -27,28 +28,39 @@
 	</nav>	
 	
 	<main>
-		<h2>Calculator attempt</h2>
+		<h2>Calculator FCC</h2>
 
-        <div class= "calculator_keys">
-            <button class="key_operator" data-actions="add">+</button>
-            <button class="key_operator" data-actions="subtract">-</button>
-            <button class="key_operator" data-actions="multiply">*</button>
-            <button class="key_operator" data-actions="divide">/</button>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button class="key_operator" data-actions="decimal">.</button>
-            <button class="key_operator" data-actions="clear">AC</button>
-        </div>
-		
-
+        <div class="container" >
+            <p>
+              This component works exactly like the calculator you know. Click any number to start calculating!
+            </p>
+            
+            <div class="calculator">
+              <div class="calculator__display">0</div>
         
+              <div class="calculator__keys">
+                <button data-key="add" data-type="operator">+</button>
+                <button data-key="subtract" data-type="operator">-</button>
+                <button data-key="times" data-type="operator">&times;</button>
+                <button data-key="divide" data-type="operator">÷</button>
+                <button class ="7" data-type="number">7</button>
+                <button class ="8" data-type="number">8</button>
+                <button class ="9" data-type="number">9</button>
+                <button class ="4" data-type="number">4</button>
+                <button class ="5" data-type="number">5</button>
+                <button class ="6" data-type="number">6</button>
+                <button class ="1" data-type="number">1</button>
+                <button class ="2" data-type="number">2</button>
+                <button class ="3" data-type="number">3</button>
+                <button class ="0" data-type="number">0</button>
+                <button class = "decimal" data-type="decimal">.</button>
+                <button class = "clear" data-type="clear">AC</button>
+                <button class="equal" data-type="equal">=</button>
+              </div>
+            </div>
+            
+          </div>
+    
         
     </main>
 

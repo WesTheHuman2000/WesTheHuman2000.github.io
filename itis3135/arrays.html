@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="styles/default.css" rel="stylesheet" type="text/css" >
+    <script src="scripts/arrays.js"></script>
+	<title>Jing-tao Lin</title>
+    <style>
+        table tr:nth-child(even):not(myHeader) {
+        background-color: #777;
+        color: #fff;
+        }
+        ol {
+            display: table;
+            margin: 0 auto;
+        }
+        table {
+            background-color: #a16363;
+	        border: solid 2px #9b6868;
+            margin-left: auto;
+            margin-right:auto;
+        }
+        .clear{
+	clear:both;
+}
+    </style>
+ 
+</head>
+
+<body>
+	<header>
+			<h1><em>Jing-tao Lin</em> >> ITIS3135</h1>
+	</header>
+	<nav>
+		<a href="introduction.html">Introduction</a> 
+        ||
+		<a href="tables.html">Tables</a>
+        ||
+        <a href="submission.html">HTML Forms</a>
+        ||
+        <a href="website_evaluations.html">Website Evaluations</a>
+        ||
+        <a href="brand-jovial-lion.html">Brand Page</a>
+        ||
+        <a href = "first-scripts.html">First Script</a>
+        ||
+        <a href = "polygon.html">Name the Polygon</a>
+        ||
+        <a href = "calculator_fcc.html">Calculator</a>
+	</nav>	
+	
+	<main>
+		
+        <h2>Arrays</h2>
+        <p>Click the drop down for a name, make sure that you only choose each name once</p>
+        
+        <select id ="peopleOptions">
+            <option>Edelgard von Hresvelg</option>
+            <option>Romuska Palo Ul Laputa</option>
+            <option>Arthur Pendragon</option>
+            <option>Dorothea Arnault</option>
+        </select>
+        <br>
+
+        <button onclick=validateEntry() style="height:50px; width:200px">Click Here to add salary</button>
+        <p>This is the add salary</p>
+        
+
+        <br>
+        <button onclick=displayResults() style="height:50px; width:200px" >Click Here to display Results</button>
+        
+        <div id = "results">
+            
+            <p>This is the displayResults</p>
+            <p id = "averageResult">This text will be replaced by the average</p>
+            <p id="maxResult">This text will be replaced by the max</p>   
+        </div>
+
+        
+
+        <br>
+        <button onclick=displaySalary() style="height:50px; width:200px;">Click Here to populate the table with salary data</button>
+        
+        <table id = "results_table" >
+            <tbody>
+                <tr>
+                    <th>Name</td>
+                    <th>Salary in $</td>
+                </tr>
+                <tr>
+                    <td>Place holder....</td>
+                    <td style="text-align: right;">Place holder....</td>
+                </tr>
+                <tr>
+                    <td>Place holder....</td>
+                    <td style="text-align: right;">Place holder....</td>
+                </tr>
+                <tr>
+                    <td>Place holder....</td>
+                    <td  style="text-align: right;">Place holder....</td>
+                </tr>
+                <tr>
+                    <td>Place holder....</td>
+                    <td style="text-align: right;">Place holder....</td>
+                </tr>
+                
+            </tbody>
+        </table>
+        <div class = "clear"></div>
+        
+
+  
+        
+    </main>
+
+    <footer>
+        <nav>
+            <a href= "http://webpages.uncc.edu/westhehuman2000/" target="_blank">Charlotte.edu</a> &#9553;
+            <a href="https://github.com/westhehuman2000" target="_blank">Github</a> &#9553;
+            <a href="https://westhehuman2000.github.io/" target="_blank">Github.io</a> &#9553;
+            <a href="https://westhehuman2000.github.io/itis3135/" target="_blank">ITIS 3135 Github Pages</a> &#9553;
+            <a href="https://www.freecodecamp.org/jing-taolin" target="_blank">freeCodeCamp</a> &#9553;
+            <a href="https://www.linkedin.com/in/jing-taolin/" target="_blank">LinkedIn</a> &#9553;
+        </nav>
+        <br />
+        <p>Page built by Jing-tao</p>
+	
+		<a href="https://validator.w3.org/check?uri=referer">
+			<img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator"></a>
+
+		<a href="https://jigsaw.w3.org/css-validator/check/referer">
+			<img src="images/button-valid-css.gif" width="88" height="31" alt="Link to CSS validator"></a>
+    </footer>
+</body>
+</html>
+
+
+                    
+
+
+            
+           

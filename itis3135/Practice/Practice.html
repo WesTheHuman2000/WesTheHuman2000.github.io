@@ -1,0 +1,85 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<title>Tuxedo Cat Coffee</title>
+		<meta charset="utf-8" />
+		<link type="text/css" rel="stylesheet" href="Practice.css">
+
+		<script
+        src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous">
+    </script>
+			<script>
+				$(document).ready(function() {
+		$("#picsOfCoffee a").click(function(evt){
+			var price = $(this).attr("coffeePrice");
+			var type = $(this).attr("coffeeType");
+			document.getElementById("firstType").innerHTML = price + " " +type;
+	
+			evt.preventDefault();
+		});
+	});
+			</script>
+
+	</head>
+	<body>
+		<header>
+			<h1>Tuxedo Cat Coffee</h1>
+			<img src="images/logo.png" alt="Morning Coffee"/>
+		</header>
+		
+		<main>
+			<form id="order_form" name="order_form" action="#" method="get">
+				<section id="menu">
+					<h2>Menu</h2>
+					<p>Click an item to add it to your order.</p>
+					<figure id ="picsOfCoffee">
+						<a href ="images/cappuccino.jpg" coffeePrice ="3.45" coffeeType ="cappuccino">
+							<img src ="images/cappuccino.jpg" >
+						</a>
+						<a href ="images/espresso.jpg" coffeePrice = "1.95" coffeeType ="espresso">
+							<img src ="images/espresso.jpg">
+						</a>
+					</figure>
+					<!-- add images here -->
+				</section>
+
+				<section>
+						<h2>Your Order</h2>
+						<p id="order">
+							<br>
+							<ul id ="orderList">
+								<li id = 'firstType'></li>
+								<li id = 'secondType'></li>
+
+							</ul>
+
+							
+						</p>
+						<!-- Emphasize  the total -->
+						<p id="total">&nbsp;</p>
+
+					<div id="buttons">
+						<span>
+						<!-- apply appropriate styling in the CSS file for the buttons. -->
+							<input type="button"  name="place_order" id="place_order" value="Place Order">
+							<input type="button"  name="clear_order" id="clear_order" value="Clear Order">
+							<input type="button"  name="Contact Us" id="contact_us" value="Contact Us">
+
+					</span>			            		
+					</div>
+				</section>   
+			</form>
+		</main> 
+		
+	<footer>
+		<br/>
+		<a href="https://validator.w3.org/">Validate HTML</a>
+		<br/>
+		<a href="https://jigsaw.w3.org/css-validator/">Validate CSS</a>
+	</footer>
+		
+	</body>
+</html>

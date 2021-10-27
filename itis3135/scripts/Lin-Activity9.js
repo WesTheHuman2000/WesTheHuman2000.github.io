@@ -10,7 +10,8 @@ $(document).ready(function() {
             "images/pokemon.avif"
         ]
 
-
+        // I used the example from the slideshow for chapter 8 to help me write this code
+        // https://uncc.instructure.com/courses/155046/files/13326716?module_item_id=3658054
         // preload the image for each link
 
         $("#images a").each(function() { 
@@ -31,18 +32,26 @@ $(document).ready(function() {
             
 //        }
     
+
         // set up the event handlers for each link
+
+        // I used the example from the slideshow for chapter 8 to help me write this code
+        // https://uncc.instructure.com/courses/155046/files/13326716?module_item_id=3658054
+        
+
         $("#images a").click(function(evt){
             var imageHref = $(this).attr("href"); 
             $("#main_image").attr("src", imageHref);
 
             evt.preventDefault();
         });
+
+
         
 
-        // cancel the default action of each link
+        
 
 
-    // move the focus to the first link
+    
 
-}); // end ready
+}); 

@@ -148,4 +148,16 @@ button{
         text-align: unset;
     }
 
+	.stepTutorial{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	border: unset;
+	padding: 7px;
+	text-align: center;
+	
+	}
+	header{
+		border:10px solid rgb(185, 128, 118);
+		background-color: rgb(70, 27, 7);
+	}
+
   

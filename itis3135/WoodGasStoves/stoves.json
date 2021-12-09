@@ -1,0 +1,29 @@
+{"stoves":[
+	{
+		"stove_name": "Brilliant DIY's stove",
+		"image": "images/showcase1.jpg"
+		
+		
+	},
+	{
+		"stove_name": "backpackinglight.com's stove",
+		
+		"image": "images/showcase2.jpg"
+		
+	},
+	{
+		"stove_name": "Eddiem's stove",
+		
+		"image": "images/showcase3.jpg"
+	   
+	},
+    {
+        "stove_name":"Camping Together's stove",
+        "image":"images/showcase4.jpg"
+    },
+    {
+        "stove_name":"Makezine's stove",
+        "image":"images/showcase5.jpg"
+    }
+
+]}

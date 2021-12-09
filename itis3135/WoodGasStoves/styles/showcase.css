@@ -1,0 +1,121 @@
+/* got this from coolors.co - please improve!
+ https://coolors.co/b5d6b2-53131e-5a464c-fffacc-ffefbd
+*/
+
+
+body
+{
+	font-family: serif;
+	color: #c0c999 ;
+	background-color:#3b1c32 ;
+	margin-left: 75px;
+	margin-right: 75px;
+	
+}
+
+
+header, footer
+{
+	
+	text-align: center;
+	color: whitesmoke;
+	font-weight: bold;
+}
+
+h1, h2, h3
+{
+	color: whitesmoke;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+}
+
+h3
+{
+	font-size: 200%;
+	line-height: 0px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #d3dfd1;
+}
+
+a:hover
+{
+	text-decoration: overline underline;
+}
+
+figure
+{
+	text-align: center;
+}
+
+figcaption
+{
+	font-style: italic;
+}
+
+
+nav
+{
+	font-family: sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 110%
+	
+}
+button{
+	background-color:brown;
+	color:wheat;
+	
+}
+
+
+
+.container {
+	max-width: 70em;
+	
+    margin: 0 auto;
+  }
+  
+  .container > p {
+	text-align: center;
+
+  }
+  
+  
+  [data-state="selected"]{
+	  background-color: rgb(66, 22, 22);
+  }
+  p{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	border: 1px solid white;
+	padding: 7px;
+	text-align: justify;
+	text-indent: 40px;
+    }
+    .ignore-border{
+        border: unset;
+        text-align: unset;
+		text-indent: unset;
+		
+    }
+
+	.stepTutorial{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	border: unset;
+	padding: 7px;
+	text-align: center;
+	
+	}
+	header, footer{
+		border:10px solid rgb(185, 128, 118);
+		background-color: rgb(70, 27, 7);
+	}
+	ul{
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	}
+    
+
+  

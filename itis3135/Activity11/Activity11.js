@@ -1,9 +1,9 @@
 
 $(document).ready(function() {
     $("#accordion").accordion({
-        event: "mouseover",
+        event: "click",
         heightStyle:"content",
-        collapsible: true
+    //    collapsible: true
     })
 
    // $("#tabs").tabs();
